@@ -31,3 +31,15 @@ redirigira a la pagina **dashboard.php**, que sera nuestra web final.
 Una vez creada la cuenta y pasado el login, seras redirigido a la pagina principal, donde podras postear y comentar a los posts que mande la gente. Volvemos a tener una conexion a la PDO, esta vez para obtener con un **SELECT** los posts que hemos escrito y asi ser visiebles en la pagina.  Despues utilizamos los **htmlspecialchars** para decir como y que queremos que se muestre
 
 ------
+
+## comentarios.php
+
+Esto en gran parte es un extra, pero he querido enfocarlo a lo de añadir trabajos en equipo y contenido a la PDO. En mi caso le he hecho con un **comentarios.php** Esta pagina php nos permite crear comentarios y reaccionar a los posts que podemos crear en el **dashboard.php**.
+Nos conectamos a la PDO, verificamos la conexion, obtenemos el ID del POST al que queremos comentar, despues de obtener el ID obtenemos los datos del
+post. Despues mostraremos los comentariso que ha añadido la gente con los **htmlspecialchars**. Y para finalizar el documente añadimos un Formulario para poenr nuestros comentarios y reacciones.
+
+------
+
+
+
+
