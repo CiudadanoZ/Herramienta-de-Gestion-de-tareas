@@ -46,4 +46,9 @@ Con este **editar_perfil.php** cumplimos ua de las tareas, ya que podremos modif
 
 ------
 
+## eliminar_cuenta.php
+
+Este **eliminat_cuenta.php** esta ligado al **editar_perfil.php** ya que a hambos se accedera en el **perfil.php**. Con este PHP podremos eliminar nuestara cuenta si queremos dejar la web y no volver, o hemos quedado descontentos. El **PHP** comemzamos con un **session_start**, verificamos que el usuario alla iniciado sesion. Despues nos conectamos a la bse de datos y verificamos la conexion, obtenemos el **ID** del usuario para identifivcarle. Tras identificar al usuario en la **PDO**, eliminamkos las publicaciones del usuario con **DELETE FROM**. Tras eliminar las publicaciones del usuario, nos dispondremos a eliminar al usuatio con **$sql = "DELETE FROM usuarios WHERE id = ?";**. Y para terminar destruiremos la sesion y redireccionara al **index.php**
+
+
  
