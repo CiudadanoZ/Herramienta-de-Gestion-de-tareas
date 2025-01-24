@@ -15,10 +15,10 @@ if ($conn->connect_error) {
     die('Error de conexión: ' . $conn->connect_error);
 }
 
-// Obtenemps el ID del usuario de la sesión
+// Obtenemos el ID del usuario de la sesión
 $user_id = $_SESSION['user_id'];
 
-// Consultar la información actual del usuario
+// Consultamos la información actual del usuario
 $sql = "SELECT nombre, email, intereses FROM usuarios WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param('i', $user_id);
