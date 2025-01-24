@@ -26,3 +26,8 @@ redirigira a la pagina **dashboard.php**, que sera nuestra web final.
 
 ------
 
+## dashboard.php
+
+Una vez creada la cuenta y pasado el login, seras redirigido a la pagina principal, donde podras postear y comentar a los posts que mande la gente. Volvemos a tener una conexion a la PDO, esta vez para obtener con un **SELECT** los posts que hemos escrito y asi ser visiebles en la pagina.  Despues utilizamos los **htmlspecialchars** para decir como y que queremos que se muestre
+
+------
