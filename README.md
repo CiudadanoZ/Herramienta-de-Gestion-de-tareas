@@ -75,8 +75,22 @@ Este **procesar_comentario.php** esta ligado ha **comentarios.php**, se encarga 
 ------
 
 ## procesar_editar_perfil.php
+
 Este **procesar_editar_perfil.php** esta ligado ha **perfil.php**, nos permitira obtener los datos que allamos modificado de nuestro perfil, y los guardara en la **base de datos**, para mantener los cambios. 
 
 ------
 
+## procesar_login.php
 
+Este **procesar_login.php** esta ligado al **login.php**,nos permite asegurarnos de que el usuario esta logeado y tiene cuenta, de esa forma sera redirigido al **dashboard.php**. Nos conectamos a la **PDO**, obtenemos los dato del formulario **email** y **password**, despues de insertar estos datos, verificamos que el usuario existe en la bse de datos **SELECT * FROM**. Si encuentra al usuario verificara su contraseña y si coincide lo redirigira al **dashboard.php**. De lo contrario nos dira "Contraseña incorrecta"
+
+ ------
+
+## procesar_post.php
+Este **procesar_post.php**, nos permiteobtener el nombre del usuario de la sesion, obtener los datos insertados en el formulario del post, procesar imagenes, si quisieramos publicar fotos en vez de texto, o ambas cosas. Para despues guardar la publicacion en la base de datos y que se mantenga publica. Repetimos las mismas acciones, nos conectamos a la **PDO**, obtnemos el nombre de nuestro usuario, obtenemnos los datos del formulario que allamos insertado, y los insertamos **INSERT INTO** en la **Base de datos**. Una vez terminada de subir, seras redirigido al **dashboard.php**
+
+ ------
+## procesar_registro.php
+Este **procesar_registro.php**, no permite guardar los datos del registro en la base dedatos, de forma que despues nos permita logearnos en **login.php**. Nos conectamos a la **PDO**, verificamos la conexion, despues validamos si el formulario a sido enviado por **POST**, recibimos los datos del formularo en la **base de datos**. Verificamos que las contraseñas coincidan, despues para mas seguridad encriptamos las contraseñas. Perparamos las consulta **SQL** para guardar los datos del usaurio. Despues ejecutamos la consulta y deveria de decirnos, si todo a salido bien **Registro Exitoso**
+
+ ------
