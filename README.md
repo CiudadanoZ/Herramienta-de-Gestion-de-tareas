@@ -69,7 +69,13 @@ Archivos **PHP** de procesamiento
 
 
 ## procesar_comentario.php
-Este **procesar_comentario.php** esta ligado ha comentarios.php, se encarga de obtner los datos del formaulario y guardarlos em la **PDO** con un **INSERT INTO**. Lo primero se conecta a la **PDO**, luego verifica la conexion, obtiene los datos del formulario, y los guarda en la **base de datos**. Para terminar cerramos la conexion.
+
+Este **procesar_comentario.php** esta ligado ha **comentarios.php**, se encarga de obtner los datos del formaulario y guardarlos em la **PDO** con un **INSERT INTO**. Lo primero se conecta a la **PDO**, luego verifica la conexion, obtiene los datos del formulario, y los guarda en la **base de datos**. Para terminar cerramos la conexion.
+
+------
+
+## procesar_editar_perfil.php
+Este **procesar_editar_perfil.php** esta ligado ha **perfil.php**, nos permitira obtener los datos que allamos modificado de nuestro perfil, y los guardara en la **base de datos**, para mantener los cambios. 
 
 ------
 
