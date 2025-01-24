@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 }
 
 // Obtenemos el ID del usuario de la sesión
-$usuario_id = $_SESSION['usuario_id'];
+$usuario_id = $_SESSION['user_id'];
 
 // Obtenemos y sanitizamos los datos del formulario
 $nombre = $conn->real_escape_string($_POST['nombre']);
