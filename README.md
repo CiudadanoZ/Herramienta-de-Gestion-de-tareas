@@ -53,6 +53,16 @@ Este **eliminat_cuenta.php** esta ligado al **editar_perfil.php** ya que a hambo
 ------
 
 ## logout.php
+
 Se encuentra accesible en **perfil.php** y nos permite cerrar la sesion. Su codigo **PHP** es muy simple. Ya que cierra y destruye la sesion, y despues te redirige a **login.php**
 
 ------
+## perfil.php
+
+Esta pagina es accesible desde el **dashboard.php** Esta pagina nos muestra la informacion de nuestro usuario ademas de permitirnos **editar, eliminar y desloguearnos**. Empezamos con un **session_start**, despues verificamos que el usario ha iniciado sesion, una vez asegurados nos conectamos a la **PDO**,
+obtenemos los datos del usuario guardados en la **Base de datos**. Despues tenmos un **CSS** y un **HTML** que nos mostraran los datos recogidos de la **PDO** y los mostrara con estilos. Ademas de mostrar los botones.
+
+------
+
+
+
