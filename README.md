@@ -40,6 +40,10 @@ post. Despues mostraremos los comentariso que ha añadido la gente con los **htm
 
 ------
 
+## editar_perfil.php
 
+Con este **editar_perfil.php** cumplimos ua de las tareas, ya que podremos modificar los datos de nuestro perfil **nombre,email e intereses**, consta de un PHP, con el verificaremos si el usuario ha iniciado la sesion con anterioridad con un **if (!isset($_SESSION['user_id']))**, si no es asi no redirigira de nuevo al login.php. Una vez logueados nos conectaremos a la PDO y obtendremos el ID del usuario de la sesion, tras ello consultamos la inforamcion  del usuario con el que nos allamos logueado con un **SELECT**. Despues crearemos la estructura con **HTML** y **CSS**. En el HTML aladiremos los **htmlspecialchars** y **PHP** para añadir los cambios a la base de datos.
 
+------
 
+ 
