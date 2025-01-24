@@ -17,3 +17,12 @@ En esta pagin procederemos a registrarnos, para crear una cuenta. Por ello devem
 los nuestros.
 
 ------
+
+## login.php
+
+Esta pagina es para una vez registrados, podamos iniciar sesion. Contiene CSS, HTML y PHP. En el PHP os conectamos a la PDO, despues obtenemos los datos
+del formulario, Buscara que los datos coincidan con los guaradados en el registro, verificara las contraseña **(encriptadas)**. Y si todo coincide
+redirigira a la pagina **dashboard.php**, que sera nuestra web final.
+
+------
+
