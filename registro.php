@@ -44,12 +44,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['registrar'])) {
         die("Error de conexión: " . $conn->connect_error);
     }
 
-    // Obtener los datos del formulario
+    // Obtenemos los datos del formulario
     $nombre = $conn->real_escape_string($_POST['nombre']);
     $email = $conn->real_escape_string($_POST['email']);
     $contraseña = password_hash($_POST['contraseña'], PASSWORD_BCRYPT); // Encriptar la contraseña
 
-    // Insertar los datos en la base de datos
+    // Insertamos los datos en la base de datos
     $sql = "INSERT INTO usuarios (nombre, email, contraseña) VALUES ('$nombre', '$email', '$contraseña')";
 
     if ($conn->query($sql) === TRUE) {
