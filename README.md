@@ -64,5 +64,13 @@ obtenemos los datos del usuario guardados en la **Base de datos**. Despues tenmo
 
 ------
 
+# Procesar
+Archivos **PHP** de procesamiento
+
+
+## procesar_comentario.php
+Este **procesar_comentario.php** esta ligado ha comentarios.php, se encarga de obtner los datos del formaulario y guardarlos em la **PDO** con un **INSERT INTO**. Lo primero se conecta a la **PDO**, luego verifica la conexion, obtiene los datos del formulario, y los guarda en la **base de datos**. Para terminar cerramos la conexion.
+
+------
 
 
