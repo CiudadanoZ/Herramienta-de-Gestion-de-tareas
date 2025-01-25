@@ -1,6 +1,6 @@
 <?php
 // Nos conectamos a la base de datos
-$conn = new mysqli('localhost', 'root', 'Retro2005@', 'AmistadApp');
+$conn = new mysqli('localhost', 'root', 'Paco1234', 'AmistadApp');
 
 // Verificicamos la conexión
 if ($conn->connect_error) {
