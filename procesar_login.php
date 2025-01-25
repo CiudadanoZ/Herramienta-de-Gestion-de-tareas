@@ -2,7 +2,7 @@
 session_start(); // Inicia la sesión
 
 // Nos conectamos a la base de datos
-$conexion = new mysqli("localhost", "root", "Retro2005@", "AmistadApp");
+$conexion = new mysqli("localhost", "root", "Paco1234", "AmistadApp");
 
 // Verificamos si hay errores de conexión
 if ($conexion->connect_error) {
