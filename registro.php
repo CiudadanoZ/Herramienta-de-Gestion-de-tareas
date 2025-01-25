@@ -38,7 +38,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['registrar'])) {
     // Conexión a la base de datos
-    $conn = new mysqli('localhost', 'root', 'Retro2005@', 'AmistadApp');
+    $conn = new mysqli('localhost', 'root', 'Paco1234', 'AmistadApp');
 
     if ($conn->connect_error) {
         die("Error de conexión: " . $conn->connect_error);
