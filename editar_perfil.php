@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // Nos conectamos a la base de datos
-$conn = new mysqli('localhost', 'root', 'Retro2005@', 'AmistadApp');
+$conn = new mysqli('localhost', 'root', 'Paco1234', 'AmistadApp');
 
 // Verificamos la conexión
 if ($conn->connect_error) {
