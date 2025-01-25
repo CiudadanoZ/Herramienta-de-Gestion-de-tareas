@@ -10,7 +10,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $host = 'localhost'; // O la IP específica, como '172.17.0.1'
 $user = 'root';
-$password = 'Retro2005@';
+$password = 'Paco1234';
 $database = 'AmistadApp';
 
 $conn = new mysqli($host, $user, $password, $database);
