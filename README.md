@@ -96,4 +96,4 @@ Este **procesar_registro.php**, no permite guardar los datos del registro en la 
  ------
 
 # Base de datos sobre la que se soporta.
-## Encontraras la Base de Datos y las tablas creadas en SQL en el archivo **BaseDeDatos:AmistadAPP**.
+## Encontraras la Base de Datos y las tablas creadas en SQL en el archivo **BaseDeDatos_AmistadAPP**.
