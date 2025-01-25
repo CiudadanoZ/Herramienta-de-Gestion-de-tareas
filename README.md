@@ -94,3 +94,6 @@ Este **procesar_post.php**, nos permiteobtener el nombre del usuario de la sesio
 Este **procesar_registro.php**, no permite guardar los datos del registro en la base dedatos, de forma que despues nos permita logearnos en **login.php**. Nos conectamos a la **PDO**, verificamos la conexion, despues validamos si el formulario a sido enviado por **POST**, recibimos los datos del formularo en la **base de datos**. Verificamos que las contraseñas coincidan, despues para mas seguridad encriptamos las contraseñas. Perparamos las consulta **SQL** para guardar los datos del usaurio. Despues ejecutamos la consulta y deveria de decirnos, si todo a salido bien **Registro Exitoso**
 
  ------
+
+## Base de datos sobre la que se soporta.
+# Encontraras la Base de Datos y las tablas creadas en SQL en el archivo **BaseDeDatos:AmistadApp**.
