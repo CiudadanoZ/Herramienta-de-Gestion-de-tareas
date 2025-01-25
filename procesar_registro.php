@@ -5,7 +5,7 @@ session_start();
 // Conexión a la base de datos
 $host = "localhost";
 $db_user = "root"; // Cambia esto si tienes otro usuario
-$db_password = "Retro2005@"; // Cambia esto según tu configuración
+$db_password = "Paco1234"; // Cambia esto según tu configuración
 $db_name = "AmistadApp";
 
 $conn = new mysqli($host, $db_user, $db_password, $db_name);
